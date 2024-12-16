@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["🎧 Watching Hyper Community", "🎮 Online Since 16Th Dec 2024"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'idle', 'test'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
