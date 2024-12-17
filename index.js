@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Watching Hyper Community", "Running Since 2025"];
-const statusTypes = [ 'idle', 'offline'];
+const statusTypes = [ 'idle', 'invisible'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
