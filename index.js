@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Ｓｙｓｔｅｍ  Ｄｏｗｎ", "Running Since 2025", "My offline status is shown as Idle"];
-const statusTypes = [ 'idle', 'idle', 'idle'];
+const statusMessages = ["𝗦𝘆𝘀𝘁𝗲𝗺 𝗨𝗻𝗱𝗲𝗿 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁"];
+const statusTypes = [ 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
