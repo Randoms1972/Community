@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["𝗦𝘆𝘀𝘁𝗲𝗺 𝗨𝗻𝗱𝗲𝗿 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁"];
-const statusTypes = [ 'idle'];
+const statusMessages = ["𝗨𝗽𝗱𝗮𝘁𝗲 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝟭.𝟬𝟭", "𝗢𝗻𝗹𝗶𝗻𝗲 𝗦𝗶𝗻𝗰𝗲 𝟮𝟬𝟮𝟱", "𝗪𝗮𝘁𝗰𝗵𝗶𝗻𝗴 𝗛𝘆𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆"];
+const statusTypes = [ 'idle', `idle`, `idle`];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
