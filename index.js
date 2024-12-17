@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Watching Hyper Community", "Running Since 2025"];
-const statusTypes = [ 'idle', 'invisible'];
+const statusMessages = ["Watching Hyper Community", "Running Since 2025", "My offline Status is shown as Idle"];
+const statusTypes = [ 'idle', 'idle', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
